@@ -1,0 +1,69 @@
+[
+  {
+    "email": {
+      "label": "Email",
+      "type": "input",
+      "config": {
+        "type": "email",
+        "placeholder": "Email",
+        "name": "email"
+      },
+      "value": "",
+      "validation": {
+        "required": true,
+        "isEmail": true
+      },
+      "valid": false,
+      "errorMessage": null
+    },
+    "phone": {
+      "label": "Phone Number",
+      "type": "input",
+      "config": {
+        "type": "phone",
+        "placeholder": "Phone Number",
+        "name": "phone"
+      },
+      "value": "",
+      "validation": {
+        "required": true,
+        "isNumber": true,
+        "minLength": 8
+      },
+      "valid": false,
+      "errorMessage": null
+    },
+    "username": {
+      "label": "Username",
+      "type": "input",
+      "config": {
+        "type": "text",
+        "placeholder": "Username",
+        "name": "username"
+      },
+      "value": "",
+      "validation": {
+        "required": true,
+        "minLength": 8
+      },
+      "valid": false,
+      "errorMessage": null
+    },
+    "password": {
+      "label": "Password",
+      "type": "input",
+      "config": {
+        "type": "password",
+        "placeholder": "Password",
+        "name": "password"
+      },
+      "value": "",
+      "validation": {
+        "required": true,
+        "minLength": 8
+      },
+      "valid": false,
+      "errorMessage": null
+    }
+  }
+]
